@@ -3,6 +3,8 @@
 source env_parallel.bash
 set -euxo pipefail
 
+export RTX_NODE_MIRROR_URL="https://nodejs.org/dist/"
+
 fetch() {
   docker run jdxcode/rtx -y ls-remote "$1" > "versions/$1" || true
 }
