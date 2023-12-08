@@ -62,6 +62,7 @@
 1.13.0
 1.13.1
 1.13.2
+1.13.3
 cmd/ctl/v1.12.0
 cmd/ctl/v1.12.1
 cmd/ctl/v1.12.2
@@ -73,3 +74,4 @@ cmd/ctl/v1.13.0-beta.0
 cmd/ctl/v1.13.0
 cmd/ctl/v1.13.1
 cmd/ctl/v1.13.2
+cmd/ctl/v1.13.3
