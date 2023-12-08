@@ -1,1 +1,7 @@
-
+/rtx/plugins/awscli-local/lib/utils.bash:
+line
+21:
+pip3:
+command
+not
+found
