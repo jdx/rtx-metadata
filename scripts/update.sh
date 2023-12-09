@@ -7,7 +7,10 @@ export RTX_NODE_MIRROR_URL="https://nodejs.org/dist/"
 
 fetch() {
   lines=$(wc -l < "versions/$1")
-  docker run -e GITHUB_API_TOKEN jdxcode/rtx -y ls-remote "$1" > "versions/$1" || true
+  if ! docker run -e GITHUB_API_TOKEN jdxcode/rtx -y ls-remote "$1" > "versions/$1"; then
+    echo "Failed to fetch versions for $1"
+    return
+  fi
   new_lines=$(wc -l < "versions/$1")
   if [ "$lines" == "$new_lines" ]; then
     echo "No new versions for $1"
