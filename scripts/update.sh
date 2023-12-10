@@ -18,6 +18,11 @@ fetch() {
     echo "No versions for $1"
   else
     echo "New versions for $1"
+    case "$1" in
+      vault|consul|nomad|terraform|packer|vagrant)
+        sort -V "versions/$1" -o "versions/$1"
+        ;;
+    esac
     git add "versions/$1"
   fi
 }
