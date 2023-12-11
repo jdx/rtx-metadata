@@ -17,12 +17,16 @@ fetch() {
   elif [ ! "$new_lines" -gt 1 ]; then
     echo "No versions for $1"
   else
-    echo "New versions for $1"
     case "$1" in
+      minio)
+        echo "Skipping $1"
+        return 0
+        ;;
       vault|consul|nomad|terraform|packer|vagrant)
         sort -V "docs/$1" -o "docs/$1"
         ;;
     esac
+    echo "New versions for $1"
     git add "docs/$1"
   fi
 }
