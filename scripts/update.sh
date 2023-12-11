@@ -6,12 +6,12 @@ set -euxo pipefail
 export RTX_NODE_MIRROR_URL="https://nodejs.org/dist/"
 
 fetch() {
-  lines=$(wc -l < "versions/$1")
-  if ! docker run -e GITHUB_API_TOKEN jdxcode/rtx -y ls-remote "$1" > "versions/$1"; then
+  lines=$(wc -l < "docs/$1")
+  if ! docker run -e GITHUB_API_TOKEN jdxcode/rtx -y ls-remote "$1" > "docs/$1"; then
     echo "Failed to fetch versions for $1"
     return
   fi
-  new_lines=$(wc -l < "versions/$1")
+  new_lines=$(wc -l < "docs/$1")
   if [ "$lines" == "$new_lines" ]; then
     echo "No new versions for $1"
   elif [ ! "$new_lines" -gt 1 ]; then
@@ -20,10 +20,10 @@ fetch() {
     echo "New versions for $1"
     case "$1" in
       vault|consul|nomad|terraform|packer|vagrant)
-        sort -V "versions/$1" -o "versions/$1"
+        sort -V "docs/$1" -o "docs/$1"
         ;;
     esac
-    git add "versions/$1"
+    git add "docs/$1"
   fi
 }
 
