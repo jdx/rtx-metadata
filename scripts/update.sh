@@ -6,6 +6,12 @@ set -euxo pipefail
 export RTX_NODE_MIRROR_URL="https://nodejs.org/dist/"
 
 fetch() {
+  case "$1" in
+    jfrog-cli|minio|tiny)
+      echo "Skipping $1"
+      return
+      ;;
+  esac
   lines=$(wc -l < "docs/$1")
   if ! docker run -e GITHUB_API_TOKEN jdxcode/rtx -y ls-remote "$1" > "docs/$1"; then
     echo "Failed to fetch versions for $1"
@@ -18,10 +24,6 @@ fetch() {
     echo "No versions for $1"
   else
     case "$1" in
-      jrog-cli|minio|tiny)
-        echo "Skipping $1"
-        return 0
-        ;;
       vault|consul|nomad|terraform|packer|vagrant)
         sort -V "docs/$1" -o "docs/$1"
         ;;
