@@ -20,6 +20,7 @@ fetch() {
   new_lines=$(wc -l < "docs/$1")
   if [ "$lines" == "$new_lines" ]; then
     echo "No new versions for $1"
+    git checkout "docs/$1"
   elif [ ! "$new_lines" -gt 1 ]; then
     echo "No versions for $1"
   else
@@ -29,13 +30,13 @@ fetch() {
         ;;
     esac
     echo "New versions for $1"
-    git add "docs/$1"
   fi
 }
 
 docker run jdxcode/rtx plugins --all | env_parallel -j4 --env fetch fetch {}
 
 if [ "$DRY_RUN" == 0 ] && ! git diff-index --quiet HEAD; then
+  git add docs
   git config --local user.email "123107610+rtx-vm@users.noreply.github.com"
   git config --local user.name "rtx"
   git commit -m "Update release metadata"
