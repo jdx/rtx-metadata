@@ -15,6 +15,7 @@ fetch() {
   lines=$(wc -l < "docs/$1")
   if ! docker run -e GITHUB_API_TOKEN jdxcode/rtx -y ls-remote "$1" > "docs/$1"; then
     echo "Failed to fetch versions for $1"
+    git checkout "docs/$1"
     return
   fi
   new_lines=$(wc -l < "docs/$1")
