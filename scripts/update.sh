@@ -18,7 +18,7 @@ fetch() {
     echo "No versions for $1"
   else
     case "$1" in
-      minio)
+      jrog-cli|minio)
         echo "Skipping $1"
         return 0
         ;;
