@@ -23,6 +23,7 @@ fetch() {
     git checkout "docs/$1"
   elif [ ! "$new_lines" -gt 1 ]; then
     echo "No versions for $1"
+    git checkout "docs/$1"
   else
     case "$1" in
       vault|consul|nomad|terraform|packer|vagrant)
