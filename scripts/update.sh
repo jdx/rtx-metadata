@@ -27,6 +27,12 @@ fetch() {
     git checkout "docs/$1"
   else
     case "$1" in
+      rust)
+        if [ "$new_lines" -lt 10 ]; then
+          echo "skipping $1"
+          git checkout "docs/$1"
+        fi
+        ;;
       vault|consul|nomad|terraform|packer|vagrant)
         sort -V "docs/$1" -o "docs/$1"
         ;;
