@@ -4,6 +4,7 @@ source env_parallel.bash
 set -euxo pipefail
 
 export RTX_NODE_MIRROR_URL="https://nodejs.org/dist/"
+export RTX_USE_VERSIONS_HOST="0"
 
 fetch() {
   case "$1" in
@@ -13,7 +14,8 @@ fetch() {
       ;;
   esac
   lines=$(wc -l < "docs/$1")
-  if ! docker run -e GITHUB_API_TOKEN jdxcode/rtx -y ls-remote "$1" > "docs/$1"; then
+  if ! docker run -e GITHUB_API_TOKEN -e RTX_USE_VERSIONS_HOST \
+      jdxcode/rtx -y ls-remote "$1" > "docs/$1"; then
     echo "Failed to fetch versions for $1"
     git checkout "docs/$1"
     return
