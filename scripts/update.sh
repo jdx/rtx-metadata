@@ -7,7 +7,7 @@ export RTX_NODE_MIRROR_URL="https://nodejs.org/dist/"
 
 fetch() {
   case "$1" in
-    jfrog-cli|minio|tiny)
+    jfrog-cli|minio|tiny|teleport-ent|flyctl)
       echo "Skipping $1"
       return
       ;;
