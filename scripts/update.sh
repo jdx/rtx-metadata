@@ -39,7 +39,7 @@ fetch() {
         sort -V "docs/$1" -o "docs/$1"
         git add "docs/$1"
         ;;
-      vault|consul|nomad|terraform|packer|vagrant)
+      vault|consul|nomad|terraform|packer|vagrant|boundary)
         sort -V "docs/$1" -o "docs/$1"
         git add "docs/$1"
         ;;
