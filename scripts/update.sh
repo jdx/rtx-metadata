@@ -8,6 +8,10 @@ export RTX_USE_VERSIONS_HOST="0"
 
 fetch() {
   case "$1" in
+    awscli-local) # TODO: remove this when it is working
+      echo "Skipping $1"
+      return
+      ;;
     jfrog-cli|minio|tiny|teleport-ent|flyctl)
       echo "Skipping $1"
       return
