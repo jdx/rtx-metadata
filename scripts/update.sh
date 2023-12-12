@@ -23,16 +23,16 @@ fetch() {
   new_lines=$(wc -l < "docs/$1")
   if [ "$lines" == "$new_lines" ]; then
     #echo "No new versions for $1"
-    git checkout "docs/$1"
+    git checkout -q "docs/$1"
   elif [ ! "$new_lines" -gt 1 ]; then
     #echo "No versions for $1"
-    git checkout "docs/$1"
+    git checkout -q "docs/$1"
   else
     case "$1" in
       rust)
         if [ "$new_lines" -lt 10 ]; then
           echo "skipping $1"
-          git checkout "docs/$1"
+          git checkout -q "docs/$1"
         fi
         ;;
       vault|consul|nomad|terraform|packer|vagrant)
