@@ -12,7 +12,7 @@ fetch() {
       echo "Skipping $1"
       return
       ;;
-    jfrog-cli|minio|tiny|teleport-ent|flyctl|vim|awscli|checkov|snyk)
+    jfrog-cli|minio|tiny|teleport-ent|flyctl|vim|awscli|checkov|snyk|chromedriver)
       echo "Skipping $1"
       return
       ;;
