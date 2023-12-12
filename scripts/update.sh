@@ -12,7 +12,7 @@ fetch() {
       echo "Skipping $1"
       return
       ;;
-    jfrog-cli|minio|tiny|teleport-ent|flyctl)
+    jfrog-cli|minio|tiny|teleport-ent|flyctl|vim|awscli|checkov|snyk)
       echo "Skipping $1"
       return
       ;;
@@ -34,6 +34,10 @@ fetch() {
         if [ "$new_lines" -gt 10 ]; then
           git add "docs/$1"
         fi
+        ;;
+      java)
+        sort -V "docs/$1" -o "docs/$1"
+        git add "docs/$1"
         ;;
       vault|consul|nomad|terraform|packer|vagrant)
         sort -V "docs/$1" -o "docs/$1"
