@@ -43,7 +43,6 @@ fetch() {
   fi
 }
 
-docker run jdxcode/rtx --version
 docker run jdxcode/rtx plugins --all | env_parallel -j4 --env fetch fetch {}
 
 if [ "$DRY_RUN" == 0 ] && ! git diff-index --quiet HEAD; then
