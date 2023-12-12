@@ -46,8 +46,7 @@ fetch() {
 docker run jdxcode/rtx plugins --all | env_parallel -j4 --env fetch fetch {}
 
 if [ "$DRY_RUN" == 0 ] && ! git diff-index --quiet HEAD; then
-  git diff --summary
-  git diff --compact-summary
+  git diff --compact-summary --cached
   git config --local user.email "123107610+rtx-vm@users.noreply.github.com"
   git config --local user.name "rtx"
   git commit -m "Update release metadata"
