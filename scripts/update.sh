@@ -17,15 +17,15 @@ fetch() {
   if ! docker run -e GITHUB_API_TOKEN -e RTX_USE_VERSIONS_HOST \
       jdxcode/rtx -y ls-remote "$1" > "docs/$1"; then
     echo "Failed to fetch versions for $1"
-    git checkout "docs/$1"
+    git checkout -q "docs/$1"
     return
   fi
   new_lines=$(wc -l < "docs/$1")
   if [ "$lines" == "$new_lines" ]; then
-    echo "No new versions for $1"
+    #echo "No new versions for $1"
     git checkout "docs/$1"
   elif [ ! "$new_lines" -gt 1 ]; then
-    echo "No versions for $1"
+    #echo "No versions for $1"
     git checkout "docs/$1"
   else
     case "$1" in
