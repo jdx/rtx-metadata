@@ -17,16 +17,13 @@ fetch() {
       return
       ;;
   esac
-  lines=$(wc -l < "docs/$1")
   if ! docker run -e GITHUB_API_TOKEN -e RTX_USE_VERSIONS_HOST \
       jdxcode/rtx -y ls-remote "$1" > "docs/$1"; then
     echo "Failed to fetch versions for $1"
     return
   fi
   new_lines=$(wc -l < "docs/$1")
-  if [ "$lines" == "$new_lines" ]; then
-    echo "No new versions for $1" >/dev/null
-  elif [ ! "$new_lines" -gt 1 ]; then
+  if [ ! "$new_lines" -gt 1 ]; then
     echo "No versions for $1" >/dev/null
   else
     case "$1" in
