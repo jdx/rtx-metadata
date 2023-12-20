@@ -485,8 +485,10 @@
 2.17.0-rc.3
 2.17.0-test.3
 2.17.0
+2.17.1-pro
 2.17.1-test.0
 2.17.1-test.1
+2.18.0-pro
 chart-v0.1.0
 rpc/v2.0.0-rc.0
 rpc/v2.0.0
@@ -822,6 +824,7 @@ rpc/v2.14.2
 rpc/v2.14.3-rc.0
 rpc/v2.14.3-rc.1
 rpc/v2.14.3-rc.2
+rpc/v2.14.3-rc.3
 rpc/v2.14.3-rc.4
 rpc/v2.14.3-rc.5
 rpc/v2.14.3-rc.6
