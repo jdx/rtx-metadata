@@ -489,6 +489,8 @@
 2.17.1-test.0
 2.17.1-test.1
 2.18.0-pro
+2.18.1-pro.0
+2.18.1-pro.1
 chart-v0.1.0
 rpc/v2.0.0-rc.0
 rpc/v2.0.0
@@ -867,3 +869,4 @@ rpc/v2.17.0-test.3
 rpc/v2.17.0
 rpc/v2.17.1-test.0
 rpc/v2.17.1-test.1
+rpc/v2.18.1-pro.0
