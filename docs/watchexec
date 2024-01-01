@@ -139,6 +139,7 @@
 1.24.0
 1.24.1
 1.24.2
+1.25.0
 bosion-v1.0.0
 bosion-v1.0.1
 bosion-v1.0.2
@@ -146,6 +147,7 @@ filterer-globset-v1.0.0
 filterer-ignore-v1.0.0
 filterer-tagged-v0.1.0
 ignore-files-v1.0.0
+ignore-files-v2.0.0
 ignore-files-v1.0.1
 ignore-files-v1.1.0
 ignore-files-v1.2.0
@@ -163,9 +165,12 @@ watchexec-events-v2.0.0
 watchexec-filterer-globset-v1.0.0
 watchexec-filterer-globset-v1.0.1
 watchexec-filterer-globset-v2.0.0
+watchexec-filterer-globset-v3.0.0
 watchexec-filterer-ignore-v1.0.0
 watchexec-filterer-ignore-v2.0.0
+watchexec-filterer-ignore-v3.0.0
 watchexec-filterer-tagged-v1.0.0
+watchexec-filterer-tagged-v2.0.0
 watchexec-signals-v1.0.0
 watchexec-signals-v2.0.0
 watchexec-supervisor-v1.0.0
