@@ -140,6 +140,7 @@
 1.24.1
 1.24.2
 1.25.0
+1.25.1
 bosion-v1.0.0
 bosion-v1.0.1
 bosion-v1.0.2
@@ -170,6 +171,7 @@ watchexec-filterer-globset-v3.0.0
 watchexec-filterer-ignore-v1.0.0
 watchexec-filterer-ignore-v2.0.0
 watchexec-filterer-ignore-v3.0.0
+watchexec-filterer-ignore-v3.0.1
 watchexec-filterer-tagged-v1.0.0
 watchexec-filterer-tagged-v2.0.0
 watchexec-signals-v1.0.0
