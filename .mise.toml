@@ -1,3 +1,9 @@
-tasks.build = "npx tsc --outDir dist"
-tasks.deploy = "npx wrangler deploy"
-tasks.dev = "env && npx wrangler dev"
+tasks.gen.run = [
+  "bunx supabase gen types typescript --project-id fjrwmlxwmhtzflckukna > ./src/database.types.ts",
+  "bunx prettier --write ./src/database.types.ts"
+]
+tasks.build = "bunx tsc"
+tasks.deploy = "bunx wrangler deploy"
+tasks.dev = "bunx wrangler dev"
+tasks.lint = "bunx eslint . --ext .ts && bunx prettier --check ."
+tasks."lint:fix" = "bunx eslint . --ext .ts --fix && bunx prettier --write ."
