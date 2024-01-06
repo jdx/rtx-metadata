@@ -1,0 +1,14 @@
+{
+  "name": "mise-versions",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231218.0",
+    "@types/node": "^20.10.6",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.22.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.2"
+  }
+}

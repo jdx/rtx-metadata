@@ -1,0 +1,3 @@
+tasks.build = "npx tsc --outDir dist"
+tasks.deploy = "npx wrangler deploy"
+tasks.dev = "env && npx wrangler dev"
