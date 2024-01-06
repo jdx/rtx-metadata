@@ -1,2 +1,3 @@
-# rtx-metadata
-stores version numbers of common rtx plugins
+# mise-versions
+
+stores version numbers of common mise plugins
