@@ -18,6 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: Swatinem/rust-cache@v2
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: sd
       - run: docker run jdxcode/mise --version
       - run: ./scripts/update.sh
         env:
