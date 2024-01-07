@@ -49,7 +49,6 @@ fetch() {
 }
 
 docker run jdxcode/mise plugins --all | env_parallel -j4 --env fetch fetch {}
-./scripts/python-precompiled.sh 1
 
 if [ "$DRY_RUN" == 0 ] && ! git diff-index --cached --quiet HEAD; then
   git diff --compact-summary --cached

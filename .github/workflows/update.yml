@@ -13,6 +13,7 @@ concurrency:
 
 env:
   GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  DRY_RUN: 0
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -23,7 +24,5 @@ jobs:
         with:
           tool: sd
       - run: docker run jdxcode/mise --version
+      - run: ./scripts/python-precompiled.sh 1
       - run: ./scripts/update.sh
-        env:
-          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DRY_RUN: 0
