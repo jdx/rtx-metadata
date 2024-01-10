@@ -27,3 +27,4 @@ done
 
 sort -uV >docs/python-precompiled.tmp <docs/python-precompiled
 mv docs/python-precompiled.tmp docs/python-precompiled
+git add docs/python-precompiled
