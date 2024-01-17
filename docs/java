@@ -427,6 +427,7 @@ corretto-8.362.08.1
 corretto-8.372.07.1
 corretto-8.382.05.1
 corretto-8.392.08.1
+corretto-8.402.06.1
 corretto-11.0.2.9.1
 corretto-11.0.2.9.2
 corretto-11.0.2.9.3
@@ -453,6 +454,7 @@ corretto-11.0.19.7.1
 corretto-11.0.20.8.1
 corretto-11.0.20.9.1
 corretto-11.0.21.9.1
+corretto-11.0.22.7.1
 corretto-15.0.0.36.1
 corretto-15.0.1.9.1
 corretto-15.0.2.7.1
@@ -471,6 +473,7 @@ corretto-17.0.7.7.1
 corretto-17.0.8.7.1
 corretto-17.0.8.8.1
 corretto-17.0.9.8.1
+corretto-17.0.10.7.1
 corretto-18.0.0.35.1
 corretto-18.0.0.37.1
 corretto-18.0.1.10.1
@@ -486,6 +489,7 @@ corretto-20.0.2.10.1
 corretto-21.0.0.34.1
 corretto-21.0.0.35.1
 corretto-21.0.1.12.1
+corretto-21.0.2.13.1
 corretto-musl-8.252.09.1
 corretto-musl-8.262.10.2
 corretto-musl-8.265.01.2
@@ -507,6 +511,7 @@ corretto-musl-8.362.08.1
 corretto-musl-8.372.07.1
 corretto-musl-8.382.05.1
 corretto-musl-8.392.08.1
+corretto-musl-8.402.06.1
 corretto-musl-11.0.7.10.1
 corretto-musl-11.0.8.10.1
 corretto-musl-11.0.9.11.1
@@ -526,6 +531,7 @@ corretto-musl-11.0.19.7.1
 corretto-musl-11.0.20.8.1
 corretto-musl-11.0.20.9.1
 corretto-musl-11.0.21.9.1
+corretto-musl-11.0.22.7.1
 corretto-musl-15.0.0.36.1
 corretto-musl-15.0.1.9.1
 corretto-musl-15.0.2.7.1
@@ -544,6 +550,7 @@ corretto-musl-17.0.7.7.1
 corretto-musl-17.0.8.7.1
 corretto-musl-17.0.8.8.1
 corretto-musl-17.0.9.8.1
+corretto-musl-17.0.10.7.1
 corretto-musl-18.0.0.35.1
 corretto-musl-18.0.0.37.1
 corretto-musl-18.0.1.10.1
@@ -559,6 +566,7 @@ corretto-musl-20.0.2.10.1
 corretto-musl-21.0.0.34.1
 corretto-musl-21.0.0.35.1
 corretto-musl-21.0.1.12.1
+corretto-musl-21.0.2.13.1
 dragonwell-8.0.0
 dragonwell-8.1.1
 dragonwell-8.2.2
@@ -1579,6 +1587,7 @@ sapmachine-11.0.19-snapshot.1
 sapmachine-11.0.20
 sapmachine-11.0.20.1
 sapmachine-11.0.21
+sapmachine-11.0.22
 sapmachine-13.0.2
 sapmachine-14
 sapmachine-14.0.1
@@ -1604,6 +1613,7 @@ sapmachine-17.0.7-snapshot.1
 sapmachine-17.0.8
 sapmachine-17.0.8.1
 sapmachine-17.0.9
+sapmachine-17.0.10
 sapmachine-18
 sapmachine-18.0.1
 sapmachine-18.0.1.1
@@ -1619,6 +1629,7 @@ sapmachine-20.0.1
 sapmachine-20.0.2
 sapmachine-21
 sapmachine-21.0.1
+sapmachine-21.0.2
 sapmachine-jre-11.0.6
 sapmachine-jre-11.0.6.0.1
 sapmachine-jre-11.0.7
@@ -1642,6 +1653,7 @@ sapmachine-jre-11.0.19-snapshot.1
 sapmachine-jre-11.0.20
 sapmachine-jre-11.0.20.1
 sapmachine-jre-11.0.21
+sapmachine-jre-11.0.22
 sapmachine-jre-13.0.2
 sapmachine-jre-14
 sapmachine-jre-14.0.1
@@ -1667,6 +1679,7 @@ sapmachine-jre-17.0.7-snapshot.1
 sapmachine-jre-17.0.8
 sapmachine-jre-17.0.8.1
 sapmachine-jre-17.0.9
+sapmachine-jre-17.0.10
 sapmachine-jre-18
 sapmachine-jre-18.0.1
 sapmachine-jre-18.0.1.1
@@ -1682,6 +1695,7 @@ sapmachine-jre-20.0.1
 sapmachine-jre-20.0.2
 sapmachine-jre-21
 sapmachine-jre-21.0.1
+sapmachine-jre-21.0.2
 sapmachine-jre-musl-17.0.4-beta
 sapmachine-jre-musl-17.0.4.1-beta
 sapmachine-jre-musl-17.0.5-beta
@@ -1691,6 +1705,7 @@ sapmachine-jre-musl-17.0.7-snapshotbeta.1
 sapmachine-jre-musl-17.0.8
 sapmachine-jre-musl-17.0.8.1
 sapmachine-jre-musl-17.0.9
+sapmachine-jre-musl-17.0.10
 sapmachine-jre-musl-18.0.1.1-beta
 sapmachine-jre-musl-18.0.2-beta
 sapmachine-jre-musl-18.0.2.1-beta
@@ -1704,6 +1719,7 @@ sapmachine-jre-musl-20.0.1
 sapmachine-jre-musl-20.0.2
 sapmachine-jre-musl-21
 sapmachine-jre-musl-21.0.1
+sapmachine-jre-musl-21.0.2
 sapmachine-musl-17.0.4-beta
 sapmachine-musl-17.0.4.1-beta
 sapmachine-musl-17.0.5-beta
@@ -1713,6 +1729,7 @@ sapmachine-musl-17.0.7-snapshotbeta.1
 sapmachine-musl-17.0.8
 sapmachine-musl-17.0.8.1
 sapmachine-musl-17.0.9
+sapmachine-musl-17.0.10
 sapmachine-musl-18.0.1.1-beta
 sapmachine-musl-18.0.2-beta
 sapmachine-musl-18.0.2.1-beta
@@ -1726,6 +1743,7 @@ sapmachine-musl-20.0.1
 sapmachine-musl-20.0.2
 sapmachine-musl-21
 sapmachine-musl-21.0.1
+sapmachine-musl-21.0.2
 semeru-jre-openj9-8u302-b08_openj9-0.27.0
 semeru-jre-openj9-8u312-b07_openj9-0.29.0
 semeru-jre-openj9-8u322-b06_openj9-0.30.0
