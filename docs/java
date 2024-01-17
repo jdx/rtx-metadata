@@ -38,6 +38,7 @@
 20.0.2
 21.0.0
 21.0.1
+21.0.2
 adoptopenjdk-8.0.181+13
 adoptopenjdk-8.0.192+12
 adoptopenjdk-8.0.202+8
@@ -675,6 +676,7 @@ graalvm-community-20.0.1
 graalvm-community-20.0.2
 graalvm-community-21.0.0
 graalvm-community-21.0.1
+graalvm-community-21.0.2
 java-se-ri-7u75-b13
 java-se-ri-8u41-b04
 java-se-ri-10+44
@@ -1517,6 +1519,7 @@ openjdk-20.0.1
 openjdk-20.0.2
 openjdk-21
 openjdk-21.0.1
+openjdk-21.0.2
 oracle-17
 oracle-17.0.1
 oracle-17.0.2
@@ -1529,6 +1532,7 @@ oracle-17.0.6
 oracle-17.0.7
 oracle-17.0.8
 oracle-17.0.9
+oracle-17.0.10
 oracle-18
 oracle-18.0.1
 oracle-18.0.1.1
@@ -1542,13 +1546,16 @@ oracle-20.0.1
 oracle-20.0.2
 oracle-21
 oracle-21.0.1
+oracle-21.0.2
 oracle-graalvm-17.0.7
 oracle-graalvm-17.0.8
 oracle-graalvm-17.0.9
+oracle-graalvm-17.0.10
 oracle-graalvm-20.0.1
 oracle-graalvm-20.0.2
 oracle-graalvm-21
 oracle-graalvm-21.0.1
+oracle-graalvm-21.0.2
 sapmachine-11.0.6
 sapmachine-11.0.6.0.1
 sapmachine-11.0.7
