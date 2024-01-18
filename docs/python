@@ -440,6 +440,8 @@ pypy2.7-7.3.13-src
 pypy2.7-7.3.13
 pypy2.7-7.3.14-src
 pypy2.7-7.3.14
+pypy2.7-7.3.15-src
+pypy2.7-7.3.15
 pypy3-2.3.1-src
 pypy3-2.3.1
 pypy3-2.4.0-src
@@ -524,12 +526,16 @@ pypy3.9-7.3.13-src
 pypy3.9-7.3.13
 pypy3.9-7.3.14-src
 pypy3.9-7.3.14
+pypy3.9-7.3.15-src
+pypy3.9-7.3.15
 pypy3.10-7.3.12-src
 pypy3.10-7.3.12
 pypy3.10-7.3.13-src
 pypy3.10-7.3.13
 pypy3.10-7.3.14-src
 pypy3.10-7.3.14
+pypy3.10-7.3.15-src
+pypy3.10-7.3.15
 pyston-2.2
 pyston-2.3
 pyston-2.3.1
