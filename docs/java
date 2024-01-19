@@ -137,6 +137,7 @@ adoptopenjdk-20.0.1+9
 adoptopenjdk-20.0.2+9
 adoptopenjdk-21.0.0+35.0.LTS
 adoptopenjdk-21.0.1+12.0.LTS
+adoptopenjdk-21.0.2+13.0.LTS
 adoptopenjdk-jre-8.0.181+13
 adoptopenjdk-jre-8.0.192+12
 adoptopenjdk-jre-8.0.202+8
@@ -231,6 +232,7 @@ adoptopenjdk-jre-20.0.1+9
 adoptopenjdk-jre-20.0.2+9
 adoptopenjdk-jre-21.0.0+35.0.LTS
 adoptopenjdk-jre-21.0.1+12.0.LTS
+adoptopenjdk-jre-21.0.2+13.0.LTS
 adoptopenjdk-jre-large_heap-openj9-8.0.192+12.OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u192b12.tar.gz
 adoptopenjdk-jre-large_heap-openj9-8.0.192+12.openj9-0.11.0
 adoptopenjdk-jre-large_heap-openj9-8.0.202+8.OpenJDK8U-jre_x64_linux_openj9_linuxXL_8u202b08-openj9-0.12.0.tar.gz
@@ -1902,6 +1904,7 @@ temurin-20.0.1+9
 temurin-20.0.2+9
 temurin-21.0.0+35.0.LTS
 temurin-21.0.1+12.0.LTS
+temurin-21.0.2+13.0.LTS
 temurin-jre-8.0.302+8
 temurin-jre-8.0.312+7
 temurin-jre-8.0.322+6
@@ -1951,6 +1954,7 @@ temurin-jre-20.0.1+9
 temurin-jre-20.0.2+9
 temurin-jre-21.0.0+35.0.LTS
 temurin-jre-21.0.1+12.0.LTS
+temurin-jre-21.0.2+13.0.LTS
 trava-11.0.1+1
 trava-11.0.1+2
 trava-11.0.1+3
