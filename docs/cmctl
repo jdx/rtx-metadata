@@ -65,6 +65,7 @@
 1.13.2
 1.13.3
 1.14.0-alpha.0
+1.14.0-beta.0
 1.14.0-alpha.1
 cmd/ctl/v1.12.0
 cmd/ctl/v1.12.1
@@ -80,4 +81,5 @@ cmd/ctl/v1.13.1
 cmd/ctl/v1.13.2
 cmd/ctl/v1.13.3
 cmd/ctl/v1.14.0-alpha.0
+cmd/ctl/v1.14.0-beta.0
 cmd/ctl/v1.14.0-alpha.1
