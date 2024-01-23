@@ -1514,6 +1514,7 @@ microsoft-11.0.19
 microsoft-11.0.20
 microsoft-11.0.20.1
 microsoft-11.0.21
+microsoft-11.0.22
 microsoft-16.0.2.7.1
 microsoft-17.0.1.12.1
 microsoft-17.0.2.8.1
@@ -1526,9 +1527,11 @@ microsoft-17.0.7
 microsoft-17.0.8
 microsoft-17.0.8.1
 microsoft-17.0.9
+microsoft-17.0.10
 microsoft-17.35.1
 microsoft-21.0.0
 microsoft-21.0.1
+microsoft-21.0.2
 openjdk-9
 openjdk-9.0.1
 openjdk-9.0.4
