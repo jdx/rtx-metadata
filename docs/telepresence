@@ -497,6 +497,7 @@
 2.19.0-pro.2
 2.19.0-pro.3
 2.19.0-pro.4
+2.19.0-pro.5
 chart-v0.1.0
 rpc/v2.0.0-rc.0
 rpc/v2.0.0
@@ -882,3 +883,4 @@ rpc/v2.19.0-pro.1
 rpc/v2.19.0-pro.2
 rpc/v2.19.0-pro.3
 rpc/v2.19.0-pro.4
+rpc/v2.19.0-pro.5
