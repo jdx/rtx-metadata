@@ -1803,6 +1803,7 @@ semeru-jre-openj9-8u362-b09_openj9-0.36.0
 semeru-jre-openj9-8u372-b07_openj9-0.38.0
 semeru-jre-openj9-8u382-b05_openj9-0.40.0
 semeru-jre-openj9-8u392-b08_openj9-0.41.0
+semeru-jre-openj9-8u402-b06_openj9-0.43.0
 semeru-jre-openj9-11.0.12+7_openj9-0.27.0
 semeru-jre-openj9-11.0.13+8_openj9-0.29.0
 semeru-jre-openj9-11.0.14+9_openj9-0.30.0
@@ -1816,6 +1817,7 @@ semeru-jre-openj9-11.0.19+7_openj9-0.38.0
 semeru-jre-openj9-11.0.20+8_openj9-0.40.0
 semeru-jre-openj9-11.0.20.1+1_openj9-0.40.0
 semeru-jre-openj9-11.0.21+9_openj9-0.41.0
+semeru-jre-openj9-11.0.22+7_openj9-0.43.0
 semeru-jre-openj9-16.0.2+7_openj9-0.27.0
 semeru-jre-openj9-17.0.1+12_openj9-0.29.1
 semeru-jre-openj9-17.0.2+8_openj9-0.30.0
@@ -1838,6 +1840,7 @@ semeru-openj9-8u362-b09_openj9-0.36.0
 semeru-openj9-8u372-b07_openj9-0.38.0
 semeru-openj9-8u382-b05_openj9-0.40.0
 semeru-openj9-8u392-b08_openj9-0.41.0
+semeru-openj9-8u402-b06_openj9-0.43.0
 semeru-openj9-11.0.12+7_openj9-0.27.0
 semeru-openj9-11.0.13+8_openj9-0.29.0
 semeru-openj9-11.0.14+9_openj9-0.30.0
@@ -1851,6 +1854,7 @@ semeru-openj9-11.0.19+7_openj9-0.38.0
 semeru-openj9-11.0.20+8_openj9-0.40.0
 semeru-openj9-11.0.20.1+1_openj9-0.40.0
 semeru-openj9-11.0.21+9_openj9-0.41.0
+semeru-openj9-11.0.22+7_openj9-0.43.0
 semeru-openj9-16.0.2+7_openj9-0.27.0
 semeru-openj9-17.0.1+12_openj9-0.29.1
 semeru-openj9-17.0.2+8_openj9-0.30.0
