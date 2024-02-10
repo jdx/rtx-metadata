@@ -39,6 +39,7 @@
 21.0.0
 21.0.1
 21.0.2
+22.0.0
 adoptopenjdk-8.0.181+13
 adoptopenjdk-8.0.192+12
 adoptopenjdk-8.0.202+8
@@ -483,6 +484,7 @@ corretto-17.0.8.7.1
 corretto-17.0.8.8.1
 corretto-17.0.9.8.1
 corretto-17.0.10.7.1
+corretto-17.0.10.8.1
 corretto-18.0.0.35.1
 corretto-18.0.0.37.1
 corretto-18.0.1.10.1
@@ -499,6 +501,7 @@ corretto-21.0.0.34.1
 corretto-21.0.0.35.1
 corretto-21.0.1.12.1
 corretto-21.0.2.13.1
+corretto-21.0.2.14.1
 corretto-musl-8.252.09.1
 corretto-musl-8.262.10.2
 corretto-musl-8.265.01.2
@@ -561,6 +564,7 @@ corretto-musl-17.0.8.7.1
 corretto-musl-17.0.8.8.1
 corretto-musl-17.0.9.8.1
 corretto-musl-17.0.10.7.1
+corretto-musl-17.0.10.8.1
 corretto-musl-18.0.0.35.1
 corretto-musl-18.0.0.37.1
 corretto-musl-18.0.1.10.1
@@ -577,6 +581,7 @@ corretto-musl-21.0.0.34.1
 corretto-musl-21.0.0.35.1
 corretto-musl-21.0.1.12.1
 corretto-musl-21.0.2.13.1
+corretto-musl-21.0.2.14.1
 dragonwell-8.0.0
 dragonwell-8.1.1
 dragonwell-8.2.2
@@ -1578,6 +1583,7 @@ openjdk-20.0.2
 openjdk-21
 openjdk-21.0.1
 openjdk-21.0.2
+openjdk-22
 oracle-17
 oracle-17.0.1
 oracle-17.0.2
