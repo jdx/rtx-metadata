@@ -608,11 +608,14 @@ dragonwell-11.0.12.8
 dragonwell-11.0.13.9
 dragonwell-11.0.14.10
 dragonwell-11.0.15.11.9
+dragonwell-11.0.22.18.7
 dragonwell-17.0.1.0.1+12
 dragonwell-17.0.2.0.2+8
 dragonwell-17.0.3.0.3+7
 dragonwell-17.0.3.0.3.7
+dragonwell-17.0.10.0.11.7
 dragonwell-musl-11.0.10.5
+dragonwell-musl-17.0.10.0.11.7
 graalvm-19.0.0
 graalvm-19.0.2
 graalvm-19.1.0
