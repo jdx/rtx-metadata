@@ -736,6 +736,7 @@ graalvm-community-20.0.2
 graalvm-community-21.0.0
 graalvm-community-21.0.1
 graalvm-community-21.0.2
+graalvm-community-22.0.0
 java-se-ri-7u75-b13
 java-se-ri-8u41-b04
 java-se-ri-10+44
@@ -1729,6 +1730,7 @@ sapmachine-20.0.2
 sapmachine-21
 sapmachine-21.0.1
 sapmachine-21.0.2
+sapmachine-22
 sapmachine-jre-11.0.6
 sapmachine-jre-11.0.6.0.1
 sapmachine-jre-11.0.7
@@ -1795,6 +1797,7 @@ sapmachine-jre-20.0.2
 sapmachine-jre-21
 sapmachine-jre-21.0.1
 sapmachine-jre-21.0.2
+sapmachine-jre-22
 sapmachine-jre-musl-17.0.4-beta
 sapmachine-jre-musl-17.0.4.1-beta
 sapmachine-jre-musl-17.0.5-beta
@@ -1819,6 +1822,7 @@ sapmachine-jre-musl-20.0.2
 sapmachine-jre-musl-21
 sapmachine-jre-musl-21.0.1
 sapmachine-jre-musl-21.0.2
+sapmachine-jre-musl-22
 sapmachine-musl-17.0.4-beta
 sapmachine-musl-17.0.4.1-beta
 sapmachine-musl-17.0.5-beta
@@ -1843,6 +1847,7 @@ sapmachine-musl-20.0.2
 sapmachine-musl-21
 sapmachine-musl-21.0.1
 sapmachine-musl-21.0.2
+sapmachine-musl-22
 semeru-jre-openj9-8u302-b08_openj9-0.27.0
 semeru-jre-openj9-8u312-b07_openj9-0.29.0
 semeru-jre-openj9-8u322-b06_openj9-0.30.0

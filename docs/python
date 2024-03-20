@@ -82,10 +82,12 @@ cinder-3.8-dev
 cinder-3.10-dev
 graalpy-community-23.1.0
 graalpy-community-23.1.2
+graalpy-community-24.0.0
 graalpy-22.3.0
 graalpy-23.0.0
 graalpy-23.1.0
 graalpy-23.1.2
+graalpy-24.0.0
 graalpython-20.1.0
 graalpython-20.2.0
 graalpython-20.3.0
@@ -742,6 +744,7 @@ stackless-3.7.5
 3.8.16
 3.8.17
 3.8.18
+3.8.19
 3.9.0
 3.9-dev
 3.9.1
@@ -761,6 +764,7 @@ stackless-3.7.5
 3.9.16
 3.9.17
 3.9.18
+3.9.19
 3.10.0
 3.10-dev
 3.10.1
