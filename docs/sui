@@ -77,6 +77,7 @@ devnet-0.32.0
 devnet-0.33.0
 ebmifa-test-tag
 ebmmifa-test-tag
+ebmmifa-test2-tag
 gdc
 mainnet-v1.1.0
 mainnet-v1.2.0
@@ -3569,6 +3570,8 @@ sui_v1.23.0_1712691298_ci
 sui_v1.23.0_1712703072_ci
 sui_v1.23.0_1712712606_ci
 sui_v1.23.0_1712724038_ci
+sui_v1.23.0_1712780559_ci
+sui_v1.23.0_1712787720_ci
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
