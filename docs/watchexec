@@ -144,6 +144,7 @@
 bosion-v1.0.0
 bosion-v1.0.1
 bosion-v1.0.2
+bosion-v1.0.3
 filterer-globset-v1.0.0
 filterer-ignore-v1.0.0
 filterer-tagged-v0.1.0
@@ -162,6 +163,7 @@ project-origins-v1.1.1
 project-origins-v1.2.0
 project-origins-v1.2.1
 project-origins-v1.3.0
+signals-v3.0.0
 watchexec-events-v1.0.0
 watchexec-events-v2.0.0
 watchexec-filterer-globset-v1.0.0
