@@ -111,6 +111,7 @@ mainnet-v1.20.1
 mainnet-v1.21.1
 mainnet-v1.22.0
 mainnet-v1.23.1
+mainnet-v1.24.1
 mlogan-shinami-sync-opts
 private-testnet-2022-08-15
 sui-v1.0.0
@@ -3706,6 +3707,7 @@ sui_v1.24.0_1714632942_release
 sui_v1.24.0_1714640108_release
 sui_v1.24.1_1714675433_release
 sui_v1.24.1_1714689774_release
+sui_v1.24.1_1715125390_release
 sui_v1.25.0_1714111510_rel_notes
 sui_v1.25.0_1714117029_ci
 sui_v1.25.0_1714133170_rel_notes
@@ -3797,6 +3799,10 @@ sui_v1.25.0_1715046420_ci
 sui_v1.25.0_1715061893_rel_notes
 sui_v1.25.0_1715067526_ci
 sui_v1.25.0_1715105105_rel_notes
+sui_v1.25.0_1715111578_ci
+sui_v1.25.0_1715115881_rel_notes
+sui_v1.25.0_1715123995_ci
+sui_v1.25.0_1715127202_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
