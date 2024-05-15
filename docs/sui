@@ -68,6 +68,7 @@ devnet-0.23.1
 devnet-0.24.0
 devnet-v1.24.0
 devnet-0.25.0
+devnet-v1.25.0
 devnet-0.26.0
 devnet-0.26.1
 devnet-0.27.0
@@ -3878,6 +3879,9 @@ sui_v1.26.0_1715699111_rel_notes
 sui_v1.26.0_1715699311_ci
 sui_v1.26.0_1715704946_ci
 sui_v1.26.0_1715709872_rel_notes
+sui_v1.26.0_1715720659_rel_notes
+sui_v1.26.0_1715727657_ci
+sui_v1.26.0_1715732104_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
@@ -3965,6 +3969,7 @@ testnet-v1.23.0
 testnet-v1.23.1
 testnet-v1.24.0
 testnet-v1.24.1
+testnet-v1.25.0
 testnet-0.28.0
 testnet-0.29.1
 testnet-0.29.2
