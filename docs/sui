@@ -3840,6 +3840,8 @@ sui_v1.25.0_1715555937_release
 sui_v1.25.0_1715588683_release
 sui_v1.25.0_1715701100_release
 sui_v1.25.0_1715709642_release
+sui_v1.25.1_1715884772_release
+sui_v1.25.1_1715903165_release
 sui_v1.26.0_1715310269_rel_notes
 sui_v1.26.0_1715315583_ci
 sui_v1.26.0_1715353453_rel_notes
@@ -3900,6 +3902,10 @@ sui_v1.26.0_1715828664_rel_notes
 sui_v1.26.0_1715835225_ci
 sui_v1.26.0_1715871849_rel_notes
 sui_v1.26.0_1715882673_rel_notes
+sui_v1.26.0_1715883409_ci
+sui_v1.26.0_1715893433_ci
+sui_v1.26.0_1715893460_rel_notes
+sui_v1.26.0_1715904906_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
