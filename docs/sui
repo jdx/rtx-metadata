@@ -70,6 +70,7 @@ devnet-v1.24.0
 devnet-0.25.0
 devnet-v1.25.0
 devnet-0.26.0
+devnet-v1.26.0
 devnet-0.26.1
 devnet-0.27.0
 devnet-0.27.1
@@ -114,6 +115,7 @@ mainnet-v1.22.0
 mainnet-v1.23.1
 mainnet-v1.24.1
 mainnet-v1.25.1
+mainnet-v1.25.2
 mlogan-shinami-sync-opts
 private-testnet-2022-08-15
 sui-v1.0.0
@@ -3973,6 +3975,7 @@ sui_v1.26.0_1716509735_rel_notes
 sui_v1.26.0_1716516090_ci
 sui_v1.26.0_1716536496_release
 sui_v1.26.0_1716698748_release
+sui_v1.26.0_1716833102_release
 sui_v1.27.0_1716519884_rel_notes
 sui_v1.27.0_1716530704_rel_notes
 sui_v1.27.0_1716541505_rel_notes
@@ -3987,6 +3990,8 @@ sui_v1.27.0_1716653121_ci
 sui_v1.27.0_1716757496_rel_notes
 sui_v1.27.0_1716793570_ci
 sui_v1.27.0_1716800669_rel_notes
+sui_v1.27.0_1716815003_ci
+sui_v1.27.0_1716822264_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
