@@ -116,10 +116,10 @@ mainnet-v1.23.1
 mainnet-v1.24.1
 mainnet-v1.25.1
 mainnet-v1.25.2
+mainnet-v1.25.3
 mlogan-shinami-sync-opts
 private-testnet-2022-08-15
 sui-v1.0.0
-sui-graphql-v2024.1.0
 sui-graphql-v2024.1.4
 sui-graphql-v2024.1.5
 sui-graphql-v2024.4.0
@@ -4008,6 +4008,8 @@ sui_v1.27.0_1716961020_ci
 sui_v1.27.0_1716962715_rel_notes
 sui_v1.27.0_1716968221_ci
 sui_v1.27.0_1716984373_rel_notes
+sui_v1.27.0_1716989367_ci
+sui_v1.27.0_1717005875_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
