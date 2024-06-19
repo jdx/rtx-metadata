@@ -127,8 +127,10 @@ private-testnet-2022-08-15
 sui-v1.0.0
 sui-graphql-v2024.1.4
 sui-graphql-v2024.1.5
+sui-graphql-v2024.1.6
 sui-graphql-v2024.4.0
 sui-graphql-v2024.4.1
+sui-graphql-v2024.4.2
 sui-v1.1.0
 sui-v1.1.1
 sui-v0.9.0-1662585123-ci
@@ -4198,6 +4200,9 @@ sui_v1.28.0_1718733910_rel_notes
 sui_v1.28.0_1718744647_rel_notes
 sui_v1.28.0_1718752099_ci
 sui_v1.28.0_1718756129_rel_notes
+sui_v1.28.0_1718762419_ci
+sui_v1.28.0_1718766304_rel_notes
+sui_v1.28.0_1718771853_ci
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
