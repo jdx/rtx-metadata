@@ -4349,6 +4349,10 @@ sui_v1.29.0_1720435145_ci
 sui_v1.29.0_1720451080_rel_notes
 sui_v1.29.0_1720461693_ci
 sui_v1.29.0_1720461905_rel_notes
+sui_v1.29.0_1720468587_ci
+sui_v1.29.0_1720472648_rel_notes
+sui_v1.29.0_1720481141_ci
+sui_v1.29.0_1720484144_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
@@ -4446,6 +4450,7 @@ testnet-0.28.0
 testnet-v1.28.0
 testnet-v1.28.1
 testnet-v1.28.2
+testnet-v1.28.3
 testnet-0.29.1
 testnet-0.29.2
 testnet-0.30.0
