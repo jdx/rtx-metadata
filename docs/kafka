@@ -186,6 +186,7 @@ confluent-enterprise-7.5.1
 confluent-enterprise-7.5.2
 confluent-enterprise-7.5.3
 confluent-enterprise-7.5.4
+confluent-enterprise-7.5.5
 confluent-enterprise-7.6.0
 confluent-enterprise-7.6.1
 confluent-community-3.0.0
@@ -372,6 +373,7 @@ confluent-community-7.5.1
 confluent-community-7.5.2
 confluent-community-7.5.3
 confluent-community-7.5.4
+confluent-community-7.5.5
 confluent-community-7.6.0
 confluent-community-7.6.1
 apache-0.8.0
