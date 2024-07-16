@@ -4389,6 +4389,8 @@ sui_v1.29.0_1720743354_rel_notes
 sui_v1.29.0_1720753044_ci
 sui_v1.29.0_1720758766_release
 sui_v1.29.0_1720766958_release
+sui_v1.29.1_1721100064_release
+sui_v1.29.1_1721107975_release
 sui_v1.30.0_1720753472_rel_notes
 sui_v1.30.0_1720761132_ci
 sui_v1.30.0_1720764328_rel_notes
@@ -4414,6 +4416,8 @@ sui_v1.30.0_1721074246_ci
 sui_v1.30.0_1721077459_rel_notes
 sui_v1.30.0_1721084955_ci
 sui_v1.30.0_1721088978_rel_notes
+sui_v1.30.0_1721096499_ci
+sui_v1.30.0_1721109946_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
@@ -4514,6 +4518,7 @@ testnet-v1.28.2
 testnet-v1.28.3
 testnet-v1.29.0
 testnet-0.29.1
+testnet-v1.29.1
 testnet-0.29.2
 testnet-0.30.0
 testnet-0.31.0
