@@ -128,6 +128,7 @@ mainnet-v1.26.2
 mainnet-v1.27.2
 mainnet-v1.27.3
 mainnet-v1.27.4
+mainnet-v1.28.3
 mlogan-shinami-sync-opts
 private-testnet-2022-08-15
 sui-v1.0.0
@@ -4424,6 +4425,8 @@ sui_v1.30.0_1721127796_ci
 sui_v1.30.0_1721142264_rel_notes
 sui_v1.30.0_1721149479_ci
 sui_v1.30.0_1721153101_rel_notes
+sui_v1.30.0_1721160799_ci
+sui_v1.30.0_1721175387_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
