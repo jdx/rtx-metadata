@@ -81,6 +81,7 @@ devnet-v1.28.1
 devnet-0.29.0
 devnet-v1.29.0
 devnet-0.30.0
+devnet-v1.30.0
 devnet-0.31.0
 devnet-0.32.0
 devnet-0.33.0
@@ -4506,6 +4507,7 @@ sui_v1.31.0_1722049516_rel_notes
 sui_v1.31.0_1722056355_ci
 sui_v1.31.0_1722200697_rel_notes
 sui_v1.31.0_1722207877_ci
+sui_v1.31.0_1722276301_rel_notes
 sui_v_1666388761_ci
 sui_v_1666399870_ci
 sui_v_1666420580_ci
