@@ -249,6 +249,7 @@
 3.2.3
 3.2.4
 3.2.5
+3.2.6
 3.3.0-preview1
 3.3.0-preview2
 3.3.0-preview3
@@ -260,6 +261,7 @@
 3.3.3
 3.3.4
 3.3.5
+3.3.6
 3.4.0-preview1
 3.4.0-preview2
 3.4-dev
@@ -369,6 +371,7 @@ jruby-9.4.5.0
 jruby-9.4.6.0
 jruby-9.4.7.0
 jruby-9.4.8.0
+jruby-9.4.9.0
 mruby-dev
 mruby-1.0.0
 mruby-1.1.0
