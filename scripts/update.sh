@@ -50,6 +50,11 @@ fetch() {
 
 docker run -e MISE_EXPERIMENTAL=1 jdxcode/mise registry | awk '{print $1}' | env_parallel -j4 --env fetch fetch {} || true
 
+git clone https://github.com/aquaproj/aqua-registry --depth 1
+fd . -tf -E registry.yaml aqua-registry -X rm
+cp -r aqua-registry/pkgs/ docs/aqua-registry
+rm -rf aqua-registry
+
 if [ "$DRY_RUN" == 0 ] && ! git diff-index --cached --quiet HEAD; then
   git diff --compact-summary --cached
   git config --local user.email "123107610+rtx-vm@users.noreply.github.com"

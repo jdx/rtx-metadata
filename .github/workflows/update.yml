@@ -24,6 +24,9 @@ jobs:
       - uses: taiki-e/install-action@v2
         with:
           tool: sd
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: fd-find
       - run: |
           cp docs/python-precompiled python-precompiled
           rm -rf docs
