@@ -18,7 +18,7 @@ fetch() {
       return
       ;;
   esac
-  if ! docker run -e GITHUB_API_TOKEN -e MISE_USE_VERSIONS_HOST \
+  if ! docker run -e GITHUB_API_TOKEN -e MISE_USE_VERSIONS_HOST -e MISE_LIST_ALL_VERSIONS \
       jdxcode/mise -y ls-remote "$1" > "docs/$1"; then
     echo "Failed to fetch versions for $1"
     return
