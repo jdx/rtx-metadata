@@ -48,15 +48,15 @@ fetch() {
   fi
 }
 
-#docker run -e MISE_EXPERIMENTAL=1 jdxcode/mise registry | awk '{print $1}' | env_parallel -j4 --env fetch fetch {} || true
+docker run -e MISE_EXPERIMENTAL=1 jdxcode/mise registry | awk '{print $1}' | env_parallel -j4 --env fetch fetch {} || true
 
 git clone https://github.com/aquaproj/aqua-registry --depth 1
 fd . -tf -E registry.yaml aqua-registry -X rm
 rm -rf docs/aqua-registry
 cp -r aqua-registry/pkgs/ docs/aqua-registry
-git add docs/aqua-registry
 rm -rf aqua-registry
 echo "$(cd docs/aqua-registry && fd --format '{//}' registry.yaml | sort -u)" > docs/aqua-registry/all
+git add docs/aqua-registry
 
 if [ "$DRY_RUN" == 0 ] && ! git diff-index --cached --quiet HEAD; then
   git diff --compact-summary --cached
