@@ -1,0 +1,13 @@
+packages:
+  - type: github_release
+    repo_owner: budimanjojo
+    repo_name: talhelper
+    description: A helper tool to help creating Talos in GitOps repository
+    asset: talhelper_{{.OS}}_{{.Arch}}.tar.gz
+    supported_envs:
+      - darwin
+      - linux
+    checksum:
+      type: github_release
+      asset: checksums.txt
+      algorithm: sha256

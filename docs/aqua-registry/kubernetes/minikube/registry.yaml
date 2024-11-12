@@ -1,0 +1,10 @@
+packages:
+  - type: http
+    repo_owner: kubernetes
+    repo_name: minikube
+    description: Run Kubernetes locally
+    supported_envs:
+      - darwin
+      - linux
+      - amd64
+    url: https://storage.googleapis.com/minikube/releases/{{.Version}}/minikube-{{.OS}}-{{.Arch}}

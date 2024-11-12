@@ -1,0 +1,15 @@
+packages:
+  - type: github_release
+    repo_owner: sachaos
+    repo_name: todoist
+    description: Todoist CLI Client. I love Todoist and CLI
+    asset: todoist_{{.OS}}_{{.Arch}}
+    format: raw
+    rosetta2: true
+    supported_envs:
+      - darwin
+      - amd64
+    version_constraint: semver(">= 0.20.0")
+    version_overrides:
+      - version_constraint: semver("< 0.20.0")
+        complete_windows_ext: false

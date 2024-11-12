@@ -1,0 +1,29 @@
+packages:
+  - type: github_release
+    repo_owner: sharkdp
+    repo_name: fd
+    description: A simple, fast and user-friendly alternative to 'find'
+    supported_envs:
+      - darwin
+      - linux
+      - amd64
+    rosetta2: true
+    asset: fd-{{.Version}}-{{.Arch}}-{{.OS}}.{{.Format}}
+    format: tar.gz
+    replacements:
+      amd64: x86_64
+      arm64: aarch64
+      darwin: apple-darwin
+      windows: pc-windows-msvc
+      386: i686
+      linux: unknown-linux-gnu
+    overrides:
+      - goos: windows
+        format: zip
+      - goos: linux
+        goarch: amd64
+        replacements:
+          linux: unknown-linux-musl
+    files:
+      - name: fd
+        src: fd-{{.Version}}-{{.Arch}}-{{.OS}}/fd

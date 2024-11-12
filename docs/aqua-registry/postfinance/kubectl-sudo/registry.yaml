@@ -1,0 +1,9 @@
+packages:
+  - type: github_content
+    repo_owner: postfinance
+    repo_name: kubectl-sudo
+    description: Run kubernetes commands with the security privileges of another user
+    supported_envs:
+      - darwin
+      - linux
+    path: bash/kubectl-sudo

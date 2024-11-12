@@ -1,0 +1,15 @@
+packages:
+  - type: github_release
+    repo_owner: siderolabs
+    repo_name: theila
+    asset: theila-{{.OS}}-{{.Arch}}
+    description: Theila is the UI for all things Sidero Labs
+    format: raw
+    supported_envs:
+      - darwin
+      - linux
+      - amd64
+    checksum:
+      type: github_release
+      asset: sha512sum.txt
+      algorithm: sha512

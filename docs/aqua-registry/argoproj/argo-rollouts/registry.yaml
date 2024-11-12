@@ -1,0 +1,14 @@
+packages:
+  - type: github_release
+    repo_owner: argoproj
+    repo_name: argo-rollouts
+    description: Progressive Delivery for Kubernetes
+    rosetta2: true
+    complete_windows_ext: false
+    asset: kubectl-argo-rollouts-{{.OS}}-{{.Arch}}
+    supported_envs:
+      - darwin
+      - linux
+      - amd64
+    files:
+      - name: kubectl-argo-rollouts

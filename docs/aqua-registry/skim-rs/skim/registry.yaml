@@ -1,0 +1,18 @@
+packages:
+  - type: github_release
+    repo_owner: skim-rs
+    repo_name: skim
+    aliases:
+      - name: lotabout/skim
+    asset: skim-{{.Version}}-{{.Arch}}-{{.OS}}.tar.gz
+    description: Fuzzy Finder in rust
+    rosetta2: true
+    supported_envs:
+      - darwin
+      - linux/amd64
+    replacements:
+      darwin: apple-darwin
+      linux: unknown-linux-musl
+      amd64: x86_64
+    files:
+      - name: sk
