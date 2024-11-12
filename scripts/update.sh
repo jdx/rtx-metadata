@@ -53,6 +53,7 @@ docker run -e MISE_EXPERIMENTAL=1 jdxcode/mise registry | awk '{print $1}' | env
 git clone https://github.com/aquaproj/aqua-registry --depth 1
 fd . -tf -E registry.yaml aqua-registry -X rm
 cp -r aqua-registry/pkgs/ docs/aqua-registry
+git add docs/aqua-registry
 rm -rf aqua-registry
 
 if [ "$DRY_RUN" == 0 ] && ! git diff-index --cached --quiet HEAD; then
