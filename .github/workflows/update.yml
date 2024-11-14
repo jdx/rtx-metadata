@@ -11,6 +11,11 @@ concurrency:
   group: update
   cancel-in-progress: true
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 env:
   GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -35,6 +40,7 @@ jobs:
       - run: ./scripts/python-precompiled.sh 1
       - run: docker run jdxcode/mise --version
       - run: ./scripts/update.sh
+      - uses: actions/configure-pages@v5
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
