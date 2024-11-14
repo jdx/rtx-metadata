@@ -1276,6 +1276,7 @@ rossmacarthur/sheldon
 rs/curlie
 rui314/mold
 runatlantis/atlantis
+rust-cross/cargo-zigbuild
 rust-lang/mdBook
 rust-lang/rust-analyzer
 rustic-rs/rustic
