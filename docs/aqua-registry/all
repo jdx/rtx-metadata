@@ -184,6 +184,7 @@ apache/camel-k
 apache/maven-mvnd
 aporia-ai/kubesurvival
 apple/pkl
+apple/pkl-go/pkl-gen-go
 apstndb/execspansql
 apstndb/spannerplanviz/rendertree
 aptly-dev/aptly
