@@ -729,6 +729,7 @@ dragonwell-21.0.1.0.1.12
 dragonwell-21.0.2.0.2.13
 dragonwell-21.0.3.0.3.9
 dragonwell-21.0.4.0.4.7
+dragonwell-21.0.5.0.5.9
 dragonwell-musl-11.0.10.5
 dragonwell-musl-17.0.4.0.4+8
 dragonwell-musl-17.0.5.0.5.8
@@ -743,6 +744,7 @@ dragonwell-musl-21.0.1.0.1.12
 dragonwell-musl-21.0.2.0.2.13
 dragonwell-musl-21.0.3.0.3.9
 dragonwell-musl-21.0.4.0.4.7
+dragonwell-musl-21.0.5.0.5.9
 graalvm-19.0.0
 graalvm-19.0.2
 graalvm-19.1.0
