@@ -142,6 +142,12 @@ WoozyMasta/kube-dump
 XAMPPRocky/tokei
 YS-L/csvlens
 Zxilly/go-size-analyzer
+_go/sigsum.org/sigsum-go/cmd/sigsum-key
+_go/sigsum.org/sigsum-go/cmd/sigsum-monitor
+_go/sigsum.org/sigsum-go/cmd/sigsum-submit
+_go/sigsum.org/sigsum-go/cmd/sigsum-token
+_go/sigsum.org/sigsum-go/cmd/sigsum-verify
+_go/sigsum.org/sigsum-go/cmd/sigsum-witness
 a-h/templ
 a8m/envsubst
 aandrew-me/tgpt
