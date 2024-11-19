@@ -314,6 +314,7 @@
 @stoplight/spectral-formatters-1.4.0
 @stoplight/spectral-formatters-1.4.1
 @stoplight/spectral-formatters-1.4.2
+@stoplight/spectral-formatters-1.4.3
 @stoplight/spectral-formats-1.6.0
 @stoplight/spectral-formats-1.7.0
 @stoplight/spectral-formats-1.8.0
@@ -323,6 +324,7 @@
 @stoplight/spectral-functions-1.9.0
 @stoplight/spectral-functions-1.9.1
 @stoplight/spectral-functions-1.9.2
+@stoplight/spectral-functions-1.9.3
 @stoplight/spectral-rulesets-1.17.0
 @stoplight/spectral-rulesets-1.17.1
 @stoplight/spectral-rulesets-1.18.0
@@ -343,6 +345,7 @@
 @stoplight/spectral-rulesets-1.21.0
 @stoplight/spectral-rulesets-1.21.1
 @stoplight/spectral-rulesets-1.21.2
+@stoplight/spectral-rulesets-1.21.3
 @stoplight/spectral-cli-6.9.0
 @stoplight/spectral-cli-6.10.0
 @stoplight/spectral-cli-6.10.1
@@ -353,3 +356,4 @@
 @stoplight/spectral-cli-6.13.1
 @stoplight/spectral-cli-6.14.0
 @stoplight/spectral-cli-6.14.1
+@stoplight/spectral-cli-6.14.2
