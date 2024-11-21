@@ -380,6 +380,7 @@ cloudspannerecosystem/spool
 cloudspannerecosystem/wrench
 cloudspannerecosystem/yo
 cloverrose/connectnew
+cloverrose/mockguard
 cloverrose/pkgdep
 cloverrose/unusedinterface
 cloverstd/tcping
