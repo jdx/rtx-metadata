@@ -40,6 +40,7 @@ jobs:
       - run: ./scripts/python-precompiled.sh 1
       - run: docker run jdxcode/mise --version
       - run: ./scripts/update.sh
+      - run: git checkout docs && git clean -df
       - uses: actions/configure-pages@v5
       - name: Upload static files as artifact
         id: deployment
