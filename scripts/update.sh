@@ -18,6 +18,7 @@ fetch() {
 		return
 		;;
 	esac
+	echo "Fetching $1"
 	if ! docker run -e GITHUB_API_TOKEN -e MISE_USE_VERSIONS_HOST -e MISE_LIST_ALL_VERSIONS -e MISE_EXPERIMENTAL -e MISE_TRUSTED_CONFIG_PATHS=/ \
 		jdxcode/mise -y ls-remote "$1" >"docs/$1"; then
 		echo "Failed to fetch versions for $1"
@@ -27,11 +28,12 @@ fetch() {
 	new_lines=$(wc -l <"docs/$1")
 	if [ ! "$new_lines" -gt 1 ]; then
 		echo "No versions for $1" >/dev/null
+		rm -f "docs/$1"
 	else
 		case "$1" in
 		cargo-binstall)
 			mv docs/cargo-binstall{,.tmp}
-			grep docs/cargo-binstall.tmp -e '^\d' >docs/cargo-binstall
+			grep -E '^[0-9]' docs/cargo-binstall.tmp >docs/cargo-binstall
 			rm docs/cargo-binstall.tmp
 			git add "docs/$1"
 			;;
