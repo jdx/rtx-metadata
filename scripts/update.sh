@@ -29,6 +29,12 @@ fetch() {
 		echo "No versions for $1" >/dev/null
 	else
 		case "$1" in
+		cargo-binstall)
+			mv docs/cargo-binstall{,.tmp}
+			grep docs/cargo-binstall.tmp -e '^\d' >docs/cargo-binstall
+			rm docs/cargo-binstall.tmp
+			git add "docs/$1"
+			;;
 		rust)
 			if [ "$new_lines" -gt 10 ]; then
 				git add "docs/$1"
