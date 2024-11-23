@@ -11,7 +11,7 @@ releases=$(gh api graphql -f query="
     }" --jq '.[].repository.releases.nodes.[].name')
 
 for release in $releases; do
-  assets=$(gh api graphql --paginate -f query="
+	assets=$(gh api graphql --paginate -f query="
     query(\$endCursor: String) {
       repository(owner: \"indygreg\", name: \"python-build-standalone\") {
         release(tagName: \"$release\") {
@@ -22,7 +22,7 @@ for release in $releases; do
         }
       }
     }" --jq '.[].repository.release.releaseAssets.nodes.[].name' | grep install_only | grep -ve '\.sha256$')
-  echo "$assets" >> docs/python-precompiled
+	echo "$assets" >>docs/python-precompiled
 done
 
 sort -uV >docs/python-precompiled.tmp <docs/python-precompiled
