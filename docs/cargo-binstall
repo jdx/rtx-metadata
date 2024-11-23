@@ -177,13 +177,3 @@ binstalk-v0.28.13
 detect-targets-v0.1.29
 detect-wasi-v1.0.12
 1.10.13
-binstalk-bins-v0.6.5
-binstalk-downloader-v0.13.5
-binstalk-fetchers-v0.10.5
-binstalk-git-repo-api-v0.5.7
-binstalk-manifests-v0.15.11
-binstalk-registry-v0.11.5
-binstalk-types-v0.9.2
-binstalk-v0.28.14
-detect-targets-v0.1.30
-detect-wasi-v1.0.13
