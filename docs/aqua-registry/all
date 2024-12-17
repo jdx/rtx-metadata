@@ -1414,6 +1414,7 @@ smartxworks/knest
 snaplet/cli
 snyk/cli
 snyk/driftctl
+snyk/parlay
 so-dang-cool/dt
 so-dang-cool/fib
 so-dang-cool/findup
