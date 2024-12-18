@@ -595,6 +595,7 @@ fujiwara/grpcp
 fujiwara/iam-policy-finder
 fujiwara/lambroll
 fujiwara/lamux
+fujiwara/maprobe
 fujiwara/riex
 fujiwara/s3mover
 fujiwara/stretcher
