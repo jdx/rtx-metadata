@@ -157,6 +157,7 @@ _go/sigsum.org/sigsum-go/cmd/sigsum-verify
 _go/sigsum.org/sigsum-go/cmd/sigsum-witness
 a-h/templ
 a8m/envsubst
+aakso/ssh-inscribe/sshi
 aandrew-me/tgpt
 abhimanyu003/sttr
 abhinav/doc2go

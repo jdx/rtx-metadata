@@ -93,6 +93,11 @@ cpython-3.9.21+20241206-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.9.21+20241206-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
 cpython-3.9.21+20241206-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
 cpython-3.9.21+20241206-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
+cpython-3.9.21+20241219-x86_64_v4-unknown-linux-musl-debug-full.tar.zst
+cpython-3.9.21+20241219-x86_64_v4-unknown-linux-musl-install_only.tar.gz
+cpython-3.9.21+20241219-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
+cpython-3.9.21+20241219-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
+cpython-3.9.21+20241219-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
 cpython-3.10.2+20220227-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.10.3+20220318-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.10.4+20220502-x86_64_v4-unknown-linux-musl-install_only.tar.gz
@@ -188,6 +193,11 @@ cpython-3.10.16+20241206-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.10.16+20241206-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
 cpython-3.10.16+20241206-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
 cpython-3.10.16+20241206-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
+cpython-3.10.16+20241219-x86_64_v4-unknown-linux-musl-debug-full.tar.zst
+cpython-3.10.16+20241219-x86_64_v4-unknown-linux-musl-install_only.tar.gz
+cpython-3.10.16+20241219-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
+cpython-3.10.16+20241219-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
+cpython-3.10.16+20241219-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
 cpython-3.11.1+20230116-x86_64_v4-unknown-linux-musl-debug-full.tar.zst
 cpython-3.11.1+20230116-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.11.1+20230116-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
@@ -268,6 +278,11 @@ cpython-3.11.11+20241206-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.11.11+20241206-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
 cpython-3.11.11+20241206-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
 cpython-3.11.11+20241206-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
+cpython-3.11.11+20241219-x86_64_v4-unknown-linux-musl-debug-full.tar.zst
+cpython-3.11.11+20241219-x86_64_v4-unknown-linux-musl-install_only.tar.gz
+cpython-3.11.11+20241219-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
+cpython-3.11.11+20241219-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
+cpython-3.11.11+20241219-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
 cpython-3.12.0+20231002-x86_64_v4-unknown-linux-musl-debug-full.tar.zst
 cpython-3.12.0+20231002-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.12.0+20231002-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
@@ -332,6 +347,11 @@ cpython-3.12.8+20241206-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.12.8+20241206-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
 cpython-3.12.8+20241206-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
 cpython-3.12.8+20241206-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
+cpython-3.12.8+20241219-x86_64_v4-unknown-linux-musl-debug-full.tar.zst
+cpython-3.12.8+20241219-x86_64_v4-unknown-linux-musl-install_only.tar.gz
+cpython-3.12.8+20241219-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
+cpython-3.12.8+20241219-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
+cpython-3.12.8+20241219-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
 cpython-3.13.0rc2+20240909-x86_64_v4-unknown-linux-musl-debug-full.tar.zst
 cpython-3.13.0rc2+20240909-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.13.0rc2+20240909-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
@@ -362,3 +382,8 @@ cpython-3.13.1+20241206-x86_64_v4-unknown-linux-musl-install_only.tar.gz
 cpython-3.13.1+20241206-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
 cpython-3.13.1+20241206-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
 cpython-3.13.1+20241206-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst
+cpython-3.13.1+20241219-x86_64_v4-unknown-linux-musl-debug-full.tar.zst
+cpython-3.13.1+20241219-x86_64_v4-unknown-linux-musl-install_only.tar.gz
+cpython-3.13.1+20241219-x86_64_v4-unknown-linux-musl-install_only_stripped.tar.gz
+cpython-3.13.1+20241219-x86_64_v4-unknown-linux-musl-lto-full.tar.zst
+cpython-3.13.1+20241219-x86_64_v4-unknown-linux-musl-noopt-full.tar.zst

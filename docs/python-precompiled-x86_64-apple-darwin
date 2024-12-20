@@ -190,6 +190,10 @@ cpython-3.9.21+20241206-x86_64-apple-darwin-install_only.tar.gz
 cpython-3.9.21+20241206-x86_64-apple-darwin-install_only_stripped.tar.gz
 cpython-3.9.21+20241206-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.9.21+20241206-x86_64-apple-darwin-pgo-full.tar.zst
+cpython-3.9.21+20241219-x86_64-apple-darwin-debug-full.tar.zst
+cpython-3.9.21+20241219-x86_64-apple-darwin-install_only.tar.gz
+cpython-3.9.21+20241219-x86_64-apple-darwin-install_only_stripped.tar.gz
+cpython-3.9.21+20241219-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.10.0-x86_64-apple-darwin-install_only-20211011T1926.tar.gz
 cpython-3.10.0-x86_64-apple-darwin-install_only-20211017T1616.tar.gz
 cpython-3.10.2+20220227-x86_64-apple-darwin-install_only.tar.gz
@@ -297,6 +301,10 @@ cpython-3.10.16+20241206-x86_64-apple-darwin-install_only.tar.gz
 cpython-3.10.16+20241206-x86_64-apple-darwin-install_only_stripped.tar.gz
 cpython-3.10.16+20241206-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.10.16+20241206-x86_64-apple-darwin-pgo-full.tar.zst
+cpython-3.10.16+20241219-x86_64-apple-darwin-debug-full.tar.zst
+cpython-3.10.16+20241219-x86_64-apple-darwin-install_only.tar.gz
+cpython-3.10.16+20241219-x86_64-apple-darwin-install_only_stripped.tar.gz
+cpython-3.10.16+20241219-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.11.1+20230116-x86_64-apple-darwin-debug-full.tar.zst
 cpython-3.11.1+20230116-x86_64-apple-darwin-install_only.tar.gz
 cpython-3.11.1+20230116-x86_64-apple-darwin-lto-full.tar.zst
@@ -384,6 +392,10 @@ cpython-3.11.11+20241206-x86_64-apple-darwin-install_only.tar.gz
 cpython-3.11.11+20241206-x86_64-apple-darwin-install_only_stripped.tar.gz
 cpython-3.11.11+20241206-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.11.11+20241206-x86_64-apple-darwin-pgo-full.tar.zst
+cpython-3.11.11+20241219-x86_64-apple-darwin-debug-full.tar.zst
+cpython-3.11.11+20241219-x86_64-apple-darwin-install_only.tar.gz
+cpython-3.11.11+20241219-x86_64-apple-darwin-install_only_stripped.tar.gz
+cpython-3.11.11+20241219-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.12.0+20231002-x86_64-apple-darwin-debug-full.tar.zst
 cpython-3.12.0+20231002-x86_64-apple-darwin-install_only.tar.gz
 cpython-3.12.0+20231002-x86_64-apple-darwin-lto-full.tar.zst
@@ -451,6 +463,10 @@ cpython-3.12.8+20241206-x86_64-apple-darwin-install_only.tar.gz
 cpython-3.12.8+20241206-x86_64-apple-darwin-install_only_stripped.tar.gz
 cpython-3.12.8+20241206-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.12.8+20241206-x86_64-apple-darwin-pgo-full.tar.zst
+cpython-3.12.8+20241219-x86_64-apple-darwin-debug-full.tar.zst
+cpython-3.12.8+20241219-x86_64-apple-darwin-install_only.tar.gz
+cpython-3.12.8+20241219-x86_64-apple-darwin-install_only_stripped.tar.gz
+cpython-3.12.8+20241219-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.13.0rc2+20240909-x86_64-apple-darwin-debug-full.tar.zst
 cpython-3.13.0rc2+20240909-x86_64-apple-darwin-install_only.tar.gz
 cpython-3.13.0rc2+20240909-x86_64-apple-darwin-install_only_stripped.tar.gz
@@ -493,3 +509,9 @@ cpython-3.13.1+20241206-x86_64-apple-darwin-install_only.tar.gz
 cpython-3.13.1+20241206-x86_64-apple-darwin-install_only_stripped.tar.gz
 cpython-3.13.1+20241206-x86_64-apple-darwin-pgo+lto-full.tar.zst
 cpython-3.13.1+20241206-x86_64-apple-darwin-pgo-full.tar.zst
+cpython-3.13.1+20241219-x86_64-apple-darwin-debug-full.tar.zst
+cpython-3.13.1+20241219-x86_64-apple-darwin-freethreaded+debug-full.tar.zst
+cpython-3.13.1+20241219-x86_64-apple-darwin-freethreaded+pgo+lto-full.tar.zst
+cpython-3.13.1+20241219-x86_64-apple-darwin-install_only.tar.gz
+cpython-3.13.1+20241219-x86_64-apple-darwin-install_only_stripped.tar.gz
+cpython-3.13.1+20241219-x86_64-apple-darwin-pgo+lto-full.tar.zst
