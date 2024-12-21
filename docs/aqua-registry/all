@@ -59,6 +59,7 @@ Getdeck/getdeck
 GhostTroops/scan4all
 GoTestTools/gotestfmt
 GoodwayGroup/gwvault
+GoogleCloudPlatform/alloydb-auth-proxy
 GoogleCloudPlatform/berglas
 GoogleCloudPlatform/cloud-sql-proxy
 GoogleCloudPlatform/terraformer
@@ -1485,6 +1486,7 @@ suzuki-shunsuke/renovate-issue-action
 suzuki-shunsuke/sort-issue-template
 suzuki-shunsuke/tfaction-go
 suzuki-shunsuke/tfcmt
+suzuki-shunsuke/tfmv
 suzuki-shunsuke/tfprovidercheck
 suzuki-shunsuke/tfrstate
 suzuki-shunsuke/yaml2json
