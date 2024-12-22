@@ -596,6 +596,7 @@ fujiwara/ecsta
 fujiwara/greenlight
 fujiwara/grpcp
 fujiwara/iam-policy-finder
+fujiwara/kinesis-tailf
 fujiwara/knockrd
 fujiwara/lambroll
 fujiwara/lamux
@@ -1378,6 +1379,7 @@ shellspec/shellspec
 shenwei356/csvtk
 shenwei356/rush
 shihanng/tfvar
+shini4i/argo-compare
 sho-hata/tparagen
 showwin/speedtest-go
 shyiko/kubesec
