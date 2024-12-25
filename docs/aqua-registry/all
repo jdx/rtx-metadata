@@ -1470,6 +1470,7 @@ suzuki-shunsuke/ci-renovate-config-validator
 suzuki-shunsuke/circleci-config-merge
 suzuki-shunsuke/cmdx
 suzuki-shunsuke/dd-time
+suzuki-shunsuke/disable-checkout-persist-credentials
 suzuki-shunsuke/discussion-slack-notifier
 suzuki-shunsuke/durl
 suzuki-shunsuke/ghalint
@@ -1628,6 +1629,7 @@ xeol-io/xeol
 xiecat/fofax
 xitonix/trubka
 xo/usql
+xo/xo
 xremap/xremap/gnome
 xremap/xremap/hypr
 xremap/xremap/kde
