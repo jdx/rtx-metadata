@@ -705,7 +705,7 @@ goss-org/goss/kgoss
 gotestyourself/gotestsum
 gotify/cli
 gptscript-ai/gptscript
-gradle/gradle
+gradle/gradle-distributions
 graelo/pumas
 grafana/grafana-kiosk
 grafana/grizzly
