@@ -345,6 +345,7 @@ chaaz/versio
 chainguard-dev/apko
 chainguard-dev/melange
 chanzuckerberg/fogg
+chaqchase/lla
 charmbracelet/charm
 charmbracelet/freeze
 charmbracelet/glow
@@ -1562,7 +1563,6 @@ transcend-io/terragrunt-atlantis-config
 travis-ci/gimme
 traviswt/gke-auth-plugin
 tree-sitter/tree-sitter
-triyanox/lla
 trufflesecurity/driftwood
 trufflesecurity/trufflehog
 trunk-io/launcher
