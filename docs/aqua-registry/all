@@ -1050,6 +1050,7 @@ mailru/easyjson
 makew0rld/didder
 making/rsc
 makiuchi-d/arelo
+mame/wsl2-ssh-agent
 manabusakai/tdtidy
 mantil-io/mantil
 marcosnils/bin
@@ -1105,6 +1106,7 @@ mitchellh/gon
 mitchellh/gox
 mitoma/sver
 mitsuhiko/insta
+mitsuhiko/minijinja
 mkchoi212/fac
 mmalcek/bafi
 mmarkdown/mmark
