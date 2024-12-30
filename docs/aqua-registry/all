@@ -25,6 +25,7 @@ BurntSushi/xsv
 Byron/dua-cli
 CAFxX/mgo
 Canop/dysk
+Canop/rhit
 Checkmarx/kics
 Cian911/switchboard
 CircleCI-Public/circleci-cli
@@ -1320,6 +1321,7 @@ rhysd/hgrep
 rhysd/vim-startuptime
 ribice/glice
 rlmcpherson/s3gof3r
+robinovitch61/kl
 robscott/kube-capacity
 rogerwelin/cassowary
 rogerwelin/cfnctl
