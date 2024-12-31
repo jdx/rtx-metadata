@@ -592,6 +592,7 @@ fortio/fortio
 freshautomations/stoml
 fsaintjacques/semver-tool
 fujiapple852/trippy
+fujiwara/apprun-cli
 fujiwara/awslim
 fujiwara/cfft
 fujiwara/ecrm
@@ -1350,6 +1351,7 @@ sachaos/todoist
 sachaos/toggl
 sachaos/viddy
 sahilm/yamldiff
+samwho/spacer
 sanathp/statusok
 sanposhiho/gomockhandler
 sarub0b0/kubetui
