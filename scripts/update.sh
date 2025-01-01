@@ -68,6 +68,12 @@ fd . -tf -E registry.yaml aqua-registry -X rm
 rm -rf docs/aqua-registry
 cp -r aqua-registry/pkgs/ docs/aqua-registry
 rm -rf aqua-registry
+for f in $(cd docs/aqua-registry && fd registry.yaml); do
+  for a in $(yq '.packages[].aliases[].name' "docs/aqua-registry/$f"); do
+    mkdir -p "docs/aqua-registry/$a"
+    cp "docs/aqua-registry/$f" "docs/aqua-registry/$a/registry.yaml"
+  done
+done
 echo "$(cd docs/aqua-registry && fd --format '{//}' registry.yaml | sort -u)" >docs/aqua-registry/all
 git add docs/aqua-registry
 
