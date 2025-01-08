@@ -221,6 +221,7 @@ antonmedv/walk
 apache/camel-k
 apache/maven
 apache/maven-mvnd
+apache/spark
 aporia-ai/kubesurvival
 apple/pkl
 apple/pkl-go/pkl-gen-go
