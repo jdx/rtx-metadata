@@ -44,16 +44,6 @@ release/0.5.24
 release/0.5.25
 release/0.5.26
 release/0.5.27
-lockstep-stack-build
-cloud-build
-fix-segfault-build
-stack-assertions-build
-unboxed-arithmetic-debug-build
 release/0.5.28
-unboxed-arithmetic-build
-better-bools-build
 release/0.5.29
-inlining-experiments-build
-interp-inlining-build
-trunk-build
 release/0.5.31
