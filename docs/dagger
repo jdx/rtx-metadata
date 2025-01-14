@@ -462,3 +462,11 @@ sdk/php/v0.15.1
 sdk/python/v0.15.1
 sdk/typescript/v0.15.1
 0.15.1
+helm/chart/v0.15.2
+sdk/elixir/v0.15.2
+sdk/go/v0.15.2
+sdk/php/v0.15.2
+sdk/python/v0.15.2
+sdk/rust/v0.15.2
+sdk/typescript/v0.15.2
+0.15.2
