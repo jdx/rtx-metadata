@@ -949,6 +949,7 @@ juliosueiras/terraform-lsp
 jumppad-labs/jumppad
 junegunn/fzf
 junegunn/fzf/fzf-tmux
+justjanne/powerline-go
 justmiles/go-markdown2confluence
 jwilder/dockerize
 k0kubun/sqldef/mssqldef
