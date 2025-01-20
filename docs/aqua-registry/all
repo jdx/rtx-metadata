@@ -34,6 +34,7 @@ CircleCI-Public/circleci-cli
 ClementTsang/bottom
 Code-Hex/gqldoc
 Crocmagnon/fatcontext
+CrunchyData/postgres-operator-client
 CycloneDX/cyclonedx-cli
 Darth-Tech/samwise-cli
 DeNA/unity-meta-check/gh-action
