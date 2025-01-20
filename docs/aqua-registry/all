@@ -1184,6 +1184,7 @@ minamijoyo/tfedit
 minamijoyo/tfmigrate
 minamijoyo/tfschema
 minamijoyo/tfupdate
+minio/mc
 miniscruff/changie
 minishift/minishift
 mislav/hub
